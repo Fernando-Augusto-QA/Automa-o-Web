@@ -25,7 +25,11 @@ public class MeuTeste {
 		System.out.println("Teste executado com sucesso");
 		metodos.evidencias("CT01 - Teste abrir Google");
 		
-		
+	}
+	
+	@Test
+	public void validarTitulo() {
+		metodos.validarTitulo("Google");
 	}
 
 }
