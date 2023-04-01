@@ -30,7 +30,7 @@ public class Metodos {
 	public void validarTitulo(String texto) {
 		driver.getTitle();
 	}
-
+	
 	public void evidencias(String evidencia) {
 		TakesScreenshot scrShot = (TakesScreenshot) driver;
 		File scrFile = scrShot.getScreenshotAs(OutputType.FILE);
